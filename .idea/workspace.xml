@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="912e55fb-e924-4292-b8b0-0b484cc56a03" name="Changes" comment="added requirements">
+    <list default="true" id="912e55fb-e924-4292-b8b0-0b484cc56a03" name="Changes" comment="added all project files and requirements">
       <change beforePath="$PROJECT_DIR$/intilaq_9/intilaq_9/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/intilaq_9/intilaq_9/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -193,7 +193,23 @@
       <option name="project" value="LOCAL" />
       <updated>1789417305019</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ixed settings and imports">
+      <option name="closed" value="true" />
+      <created>1789418951257</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1789418951258</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added all project files and requirements">
+      <option name="closed" value="true" />
+      <created>1789419685233</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1789419685234</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,7 +229,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="added requirements" />
-    <option name="LAST_COMMIT_MESSAGE" value="added requirements" />
+    <MESSAGE value="ixed settings and imports" />
+    <MESSAGE value="added all project files and requirements" />
+    <option name="LAST_COMMIT_MESSAGE" value="added all project files and requirements" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

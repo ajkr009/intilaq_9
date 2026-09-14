@@ -1,0 +1,41 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portal</title>
+    <link rel="stylesheet" href="{% static 'css/home.css' %}">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">Student Portal</div>
+        <ul class="nav-links">
+            <li><a href="{% url 'home' %}">Home</a></li>
+            <li><a href="{% url 'about' %}">About</a></li>
+            {% if user.is_authenticated %}
+                <li style="color: #ffca28; font-weight: bold;">Hello, {{ user.username }}</li>
+                <li><a href="{% url 'logout' %}" style="color: #ff5252;">Logout</a></li>
+            {% else %}
+                <li><a href="{% url 'register' %}">Register</a></li>
+                <li><a href="{% url 'login' %}">Login</a></li>
+            {% endif %}
+        </ul>
+    </nav>
+
+    {% if messages %}
+        <div class="messages-container">
+            {% for message in messages %}
+                <div class="alert">{{ message }}</div>
+            {% endfor %}
+        </div>
+    {% endif %}
+
+    <div class="hero-bg">
+        {% block content %}
+        {% endblock %}
+    </div>
+
+</body>
+</html>

@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="912e55fb-e924-4292-b8b0-0b484cc56a03" name="Changes" comment="added all project files">
-      <change beforePath="$PROJECT_DIR$/intilaq_9/home/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/intilaq_9/home/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/intilaq_9/intilaq_9/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/intilaq_9/intilaq_9/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/intilaq_9/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/intilaq_9/templates/home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +136,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "vcs.Git",
+    "settings.editor.selected.configurable": "com.intellij.pycharm.community.ide.impl.configuration.PythonContentEntriesConfigurable",
     "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
   },
@@ -234,7 +234,23 @@
       <option name="project" value="LOCAL" />
       <updated>1789423723437</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="added all project files">
+      <option name="closed" value="true" />
+      <created>1789425100393</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1789425100393</updated>
+    </task>
+    <task id="LOCAL-00009" summary="added all project files">
+      <option name="closed" value="true" />
+      <created>1789425261544</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1789425261544</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

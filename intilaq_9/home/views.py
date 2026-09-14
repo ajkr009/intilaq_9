@@ -61,7 +61,10 @@ def login(request):
 
     return render(request, 'login.html')
 
-# 5. ലോഗ് ഔട്ട് വ്യൂ
+def fun_page(request):
+    return render(request, 'fun.html')
+
+#5. ലോഗ് ഔട്ട് വ്യൂ
 def logout_view(request):
     auth_logout(request)
     messages.info(request, "Logged out successfully.")

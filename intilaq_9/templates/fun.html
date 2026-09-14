@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funny Question 😜</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #ffe6e6;
+            font-family: 'Arial', sans-serif;
+            overflow: hidden;
+            margin: 0;
+        }
+        h1 {
+            color: #ff3366;
+            font-size: 3rem;
+            margin-bottom: 30px;
+            text-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+        }
+        .btn-container {
+            position: relative;
+            width: 100%;
+            max-width: 400px;
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        button {
+            padding: 15px 35px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            transition: transform 0.1s ease;
+        }
+        #yesBtn {
+            background-color: #4CAF50;
+            color: white;
+            margin-right: 20px;
+        }
+        #noBtn {
+            background-color: #f44336;
+            color: white;
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>MAXKILL IS GAY<br>
+        Are you gay? 🤨🌈</h1>
+
+    <div class="btn-container">
+        <button id="yesBtn" onclick="sayYes()">Yes</button>
+        <button id="noBtn" onmouseover="moveButton()">No</button>
+    </div>
+
+    <script>
+        // "No" ബട്ടണിൽ മൗസ് തൊടുമ്പോൾ അത് ഓടിപ്പോകാനുള്ള കോഡ്
+        function moveButton() {
+            const noBtn = document.getElementById('noBtn');
+
+            // വിൻഡോയുടെ വീതിയും നീളവും കണക്കാക്കുന്നു
+            const x = Math.random() * (window.innerWidth - noBtn.offsetWidth - 50);
+            const y = Math.random() * (window.innerHeight - noBtn.offsetHeight - 50);
+
+            // ബട്ടണിന്റെ സ്ഥാനം റാൻഡം ആയി മാറ്റുന്നു
+            noBtn.style.left = x + 'px';
+            noBtn.style.top = y + 'px';
+        }
+
+        // "Yes" ഞെക്കുമ്പോൾ കാണിക്കേണ്ടത്
+        function sayYes() {
+            alert("I knew it! 🤣🏳️‍🌈 Happy to hear that!");
+        }
+    </script>
+
+</body>
+</html>

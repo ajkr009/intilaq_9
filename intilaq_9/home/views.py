@@ -36,7 +36,6 @@ def register(request):
             messages.error(request, "Username already taken!")
             return render(request, 'register.html')
 
-        # പുതിയ യൂസറെ ഉണ്ടാക്കുന്നു
         user = User.objects.create_user(username=u, email=e, password=p)
         user.save()
         messages.success(request, "Account created successfully! Please login.")
@@ -61,10 +60,7 @@ def login(request):
 
     return render(request, 'login.html')
 
-def fun_page(request):
-    return render(request, 'fun.html')
-
-#5. ലോഗ് ഔട്ട് വ്യൂ
+# 5. ലോഗ് ഔട്ട് വ്യൂ
 def logout_view(request):
     auth_logout(request)
     messages.info(request, "Logged out successfully.")
